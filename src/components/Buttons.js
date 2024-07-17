@@ -1,7 +1,10 @@
 import '../styles/global.css'
-function btn(text,icon,img,size){
+function Btn(props){
+    let bgImg={
+        backgroundImage:`url(${props.url})`
+    }
         return(
-            <button className='s-sq btn btn-bgImg'></button>
+            <button style={bgImg} className='s-sq btn clearBg sm-bgImg ctr-bg'></button>
         )
 }
 export default Btn
