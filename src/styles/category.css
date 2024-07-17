@@ -1,0 +1,25 @@
+@import url(./global.css);
+.Category-parent{
+    padding: 5px 10px;
+    align-items: left;
+    background-color: var(--primaryBg2);
+    height: fit-content;
+}
+.Cards-container{
+    padding:inherit;
+    justify-content: left;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    height: 180px;
+}
+.Category-wrapper{
+    background-color: var(--white);
+    width: var(--categoryCardW);
+    height: fit-content;
+}
+.Category-img{
+    max-width: var(--categoryCardW);
+}
+.Category-label{
+    margin:5px;
+}

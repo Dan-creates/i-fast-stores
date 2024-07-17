@@ -1,12 +1,17 @@
 :root{
     --primaryBg:#cfcfcf;
+    --primaryBg2:#e7e7e7;
     --white:#ffffff;
     --primaryFont:sans-serif;
+    --categoryCardW:150px;
+    --categoryCardH:200px;
+    --borderRadius-s:10px;
 }
 *{
     box-sizing: border-box;
     font-family: var(--primaryFont);
     background-repeat: no-repeat;
+    scroll-behavior: smooth;
 }
 html,body{
     margin: 0;
@@ -24,7 +29,7 @@ body{
     padding:5px 0;
 }
 #Search{
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: large;
     outline: black;
@@ -86,6 +91,6 @@ body{
 }
 .searchImg{
     background-image: url(../images/search.svg);
-    background-size: 30px 30px;
+    background-size: 25px 25px;
     background-position: left center;
 }

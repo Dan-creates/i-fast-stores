@@ -7,6 +7,7 @@ import user from '../images/user.png'
 import cart from '../images/shopping-cart.png'
 import menu from '../images/menu.png'
 import logo from '../images/logo192.png'
+
 function NavBar(){
     return(
         <div id="NavBar" className='fl col'>
