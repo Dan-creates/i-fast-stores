@@ -1,0 +1,20 @@
+:root{
+    --primaryFont:sans serif;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.fl{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.spacedRow{
+    justify-content: space-between;
+}
