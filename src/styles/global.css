@@ -15,6 +15,6 @@ html,body{
 .row{
     flex-direction: row;
 }
-.spacedRow{
+.spRow{
     justify-content: space-between;
 }
