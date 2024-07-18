@@ -4,13 +4,14 @@
     align-items: left;
     background-color: var(--primaryBg2);
     height: fit-content;
+    margin-bottom: 5px;
 }
 .Cards-container{
     padding:inherit;
     justify-content: left;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    height: 180px;
+    height: 350px;
 }
 .Category-wrapper{
     background-color: var(--white);

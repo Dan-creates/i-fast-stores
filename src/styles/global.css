@@ -1,10 +1,13 @@
 :root{
     --primaryBg:#cfcfcf;
     --primaryBg2:#e7e7e7;
+    --grey:#a8a8a8;
     --white:#ffffff;
     --primaryFont:sans-serif;
     --categoryCardW:150px;
     --categoryCardH:200px;
+    --productCardW:200px;
+    --productCardH:100px;
     --borderRadius-s:10px;
 }
 *{
@@ -20,6 +23,12 @@ html,body{
 }
 body{
     background-color: var(--primaryBg);
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 5px;
+}
+button{
+    width: auto;
 }
 #NavFunc{
     padding:10px;
@@ -68,7 +77,11 @@ body{
 }
 .m-rec{
     width: 50px;
-    height: 20px;
+    height: 40px;
+}
+.txt-rec{
+    width: fit-content;
+    padding: 10px;
 }
 .b-sh{
     box-shadow: 5px 0 5px #080808b2;
@@ -93,4 +106,7 @@ body{
     background-image: url(../images/search.svg);
     background-size: 25px 25px;
     background-position: left center;
+}
+.n-wrap{
+    text-wrap: nowrap;
 }
