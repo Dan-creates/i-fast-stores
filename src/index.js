@@ -10,6 +10,15 @@ root.render(
   <NavBar/>
   <Category title='Fashion'>
     <Categorycard name='Hair Care' src={sample}/>
+    <Categorycard name='Skin Care' src={sample}/>
+  </Category>
+  <Category title='Trending Categories'>
+    <Categorycard name='Modelling' src={sample}/>
+    <Categorycard name='Facial' src={sample}/>
+  </Category>
+  <Category title='On your Wishlist'>
+    <Categorycard name='Modelling' src={sample}/>
+    <Categorycard name='Facial' src={sample}/>
   </Category>
   </>
   
