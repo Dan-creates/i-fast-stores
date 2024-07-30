@@ -11,7 +11,7 @@
     justify-content: left;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    height: 350px;
+    height: 300px;
 }
 .Category-wrapper{
     background-color: var(--white);
