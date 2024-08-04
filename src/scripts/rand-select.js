@@ -1,6 +1,6 @@
 /**
  * Randomly selects an item from an array and returns it
- * @param arr Contains an array
+ * @param arr Contains a filled array
  * @returns A randomly selected item from the array
  */
 function select(arr){
