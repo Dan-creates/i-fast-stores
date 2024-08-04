@@ -6,7 +6,7 @@ import like from '../images/heart.png'
 import Btn from '../Components/Buttons'
 import Dummy from '../Components/Dummy'
 import Review from '../Components/Review'
-function Product_page(){
+function ProductPage(){
     return (
         <Layout>
         <Card stack='col' className='vCtr'>
@@ -57,4 +57,4 @@ function Product_page(){
     </Layout>
     )
 }
-export default Product_page
+export default ProductPage

@@ -1,6 +1,6 @@
-import styles from '../styles/global.css'
+import '../styles/global.css'
 //The card component will return different types of card (Horizontal/ Vertical)
-function Card({stack,children,className}){
+function Card({props,stack,children,className}){
     let combinedClasses;
     if(props.stack==="column"){
         stack='fl col'

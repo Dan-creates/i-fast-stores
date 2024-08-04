@@ -7,7 +7,7 @@ import user from '../images/user.png'
 import select from '../scripts/rand-select'
 //Define the user review component
 function Review(props){
-    let titles=["Amazing!!", "Loved It!!", "Definitely Worth It", "Overrated", "Don\'t Buy It"]
+    let titles=["Amazing!!", "Loved It!!", "Definitely Worth It", "Overrated", "Don't Buy It"]
     let f_names="Jane John Mary Peter Liam Harry Linda Natasha Ali Wallace Billy Wendy Ben"
     let surnames="Doe Potter Payne Butcher Campbell Sia Isaq Natalie Wright Bill Muna Luck"
     let ran_title=select(titles);
@@ -38,3 +38,4 @@ function Review(props){
         </Card>
     )
 }
+export default Review
