@@ -5,10 +5,11 @@ import Test_img from '../images/category.jpg'
 import like from '../images/heart.png'
 import Btn from '../Components/Buttons'
 import Dummy from '../Components/Dummy'
+import Review from '../Components/Review'
 function Product_page(){
     return (
         <Layout>
-            <Card stack='col' className='vCtr'>
+        <Card stack='col' className='vCtr'>
                 <Card stack='row' className='spRow'>
                     <div> 
                        <h2>Cookie Jar</h2> 
@@ -29,24 +30,31 @@ function Product_page(){
                         <Btn url={like}/>
                     </div>
                 </div>
-                <div className='fl col'>
-                    <h4>Product Properties</h4>
-                    <div className='fl row'>
-                        <Btn text='Small'/>
-                        <Btn text='Medium'/>
-                        <Btn text='Large'/>
-                        <Btn text='X-Large'/>
-                        <Btn text='XX-Large'/>
-                    </div>
+            </Card>
+            <Card stack='col'>
+                <h4>Product Properties</h4>
+                <div className='fl row'>
+                    <Btn text='Small'/>
+                    <Btn text='Medium'/>
+                    <Btn text='Large'/>
+                    <Btn text='X-Large'/>
+                    <Btn text='XX-Large'/>
                 </div>
-                <div className='fl col'>
+            </Card>
+            <Card stack='col'>
                     <h3>Description</h3>
                     <p className='p-desc'>
                         <Dummy/>
                     </p>
-                </div>
             </Card>
+            <Card stack='col'>
+                <Review/>
+                <Review/>
+                <Review/>
+                <Review/>
             </Card>
-        </Layout>
+        </Card>
+    </Layout>
     )
 }
+export default Product_page

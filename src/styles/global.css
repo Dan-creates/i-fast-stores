@@ -28,9 +28,13 @@ body{
 h1,h2,h3,h4,h5,h6{
     margin: 5px;
 }
+img{
+    max-width: 100%
+}
 button{
     width: auto;
 }
+
 #NavFunc{
     padding:10px;
     background-color: var(--white);
@@ -95,7 +99,7 @@ button{
     background-color: var(--white);
 }
 .clearBg{
-    background-color:transparent ;
+    background-color:transparent;
 }
 .sm-bgImg{
     background-size:25px 25px;
