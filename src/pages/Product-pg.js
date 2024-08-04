@@ -12,10 +12,10 @@ function ProductPage(){
         <Card stack='col' className='vCtr'>
                 <Card stack='row' className='spRow'>
                     <div> 
-                       <h2>Cookie Jar</h2> 
+                       <h3>Cookie Jar</h3> 
                     </div>
                     <div>
-                        <div>Rating (4.2)</div>
+                        <h3>Rating (4.2)</h3>
                     </div>
                 </Card>
             <Card stack='col'>
@@ -23,7 +23,7 @@ function ProductPage(){
                     <img src={Test_img} alt=''></img>
                 </div>
                 <div className='fl col'>
-                    <h3>$49.99</h3>
+                    <h2>$49.99</h2>
                     <div className='fl row spRow'>
                         <Btn custom text='Add To Cart'/>
                         <Btn custom text='Buy Now'/>
