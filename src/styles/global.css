@@ -91,6 +91,9 @@ button{
     border: none;
     cursor: pointer;
 }
+.card{
+    background-color: var(--white);
+}
 .clearBg{
     background-color:transparent ;
 }

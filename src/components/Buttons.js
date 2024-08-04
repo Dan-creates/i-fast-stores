@@ -13,6 +13,13 @@ function Btn(props){
             <button className='btn txt-rec n-wrap'>{props.text}</button>
         )
     }
+    else if(props.custom){
+        let butn='btn n-wrap txt-rec'
+        let combo=`${butn} ${props.className}`
+        return(
+            <button className={combo}>{props.text}</button>
+        )
+    }
    
 }
 export default Btn
