@@ -10,15 +10,16 @@ function ProductPage(){
     return (
         <Layout>
         <Card stack='col' className='vCtr'>
-                <Card stack='row' className='spRow'>
-                    <div> 
-                       <h3>Cookie Jar</h3> 
-                    </div>
-                    <div>
-                        <h3>Rating (4.2)</h3>
-                    </div>
-                </Card>
             <Card stack='col'>
+
+              <Card stack='row' className='spRow'>
+                <div> 
+                    <h3>Cookie Jar</h3> 
+                </div>
+                <div>
+                    <h3>Rating (4.2)</h3>
+                </div>
+              </Card>
                 <div>
                     <img src={Test_img} alt=''></img>
                 </div>
@@ -30,10 +31,10 @@ function ProductPage(){
                         <Btn url={like}/>
                     </div>
                 </div>
-            </Card>
-            <Card stack='col'>
+
+                <Card stack='col'>
                 <h4>Product Properties</h4>
-                <div className='fl row'>
+                <div className='fl row spRow'>
                     <Btn text='Small'/>
                     <Btn text='Medium'/>
                     <Btn text='Large'/>
@@ -41,17 +42,18 @@ function ProductPage(){
                     <Btn text='XX-Large'/>
                 </div>
             </Card>
-            <Card stack='col'>
-                    <h3>Description</h3>
-                    <p className='p-desc'>
-                        <Dummy/>
-                    </p>
             </Card>
-            <Card stack='col'>
-                <Review/>
-                <Review/>
-                <Review/>
-                <Review/>
+            <Card stack='col' className='card'>
+                <h3>Description</h3>
+                <p className='p-desc'>
+                    <Dummy/>
+                </p>
+            </Card>
+            <Card stack='row' className='no-wrap'>
+                <Review stars={4}/>
+                <Review stars={3}/>
+                <Review stars={5}/>
+                <Review stars={2}/>
             </Card>
         </Card>
     </Layout>
