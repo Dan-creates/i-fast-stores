@@ -14,7 +14,7 @@ function Review(props){
     let ran_name=`${select(f_names.split(' '))} ${select(surnames.split(' '))}`
     let userTitle=ran_title;
     return(
-        <Card stack='col' className='card review'>
+        <Card stack='col' className='review'>
 
             <Card stack='row'>
                 <div><Btn url={user}/></div>
@@ -34,8 +34,8 @@ function Review(props){
             </Card>
 
             <Card stack='row' className='spRow'>
-                <Btn text='like'/>
-                <Btn text='dislike'/>
+                <Btn text='Like'/>
+                <Btn text='Dislike'/>
             </Card>
         </Card>
     )

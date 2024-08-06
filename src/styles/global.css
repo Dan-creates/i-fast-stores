@@ -73,7 +73,8 @@ button{
 .vCtr{
     align-items: center;
 }
-.no_wrap{
+.no-wrap{
+    width: 100%;
     flex-wrap: nowrap;
     overflow-x: scroll;
     justify-content: flex-start;
@@ -81,8 +82,11 @@ button{
 .review{
     width:var(--reviewCardW);
     height: var(--reviewCardH);
-    max-width: var(--reviewCardW);
+    min-width: var(--reviewCardW);
     max-height: var(--reviewCardH);
+    margin:2px 2px;
+    padding: 10px;
+    background-color: var(--white);
 }
 .fit{
     width:100%;
