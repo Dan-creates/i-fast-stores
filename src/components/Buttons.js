@@ -1,5 +1,5 @@
 import '../styles/global.css'
-function Btn(props){
+function Btn(props,{className}){
     if(props.url){
         let bgImg={
             backgroundImage:`url(${props.url})`
@@ -15,7 +15,7 @@ function Btn(props){
     }
     else if(props.custom){
         let butn='btn n-wrap txt-rec'
-        let combo=`${butn} ${props.className}`
+        let combo=`${butn} ${className}`
         return(
             <button className={combo}>{props.text}</button>
         )
