@@ -3,7 +3,6 @@ import '../styles/global.css'
 import Layout from '../Components/Layout'
 import Card from '../Components/Card'
 import CartItem from '../Components/Cart-item'
-import Btn from '../Components/Buttons'
 //Define Cart Page
 function Cart(){
     return(

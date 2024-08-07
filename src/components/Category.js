@@ -13,7 +13,7 @@ function Categorycard(props){
     return(
         <div className='Category-wrapper fl col'>
         <div className='Category-img-container'>
-            <img src={props.src} className='Category-img'/>
+            <img src={props.src} className='Category-img' alt=''/>
         </div>
         <div className='Category-name'>
             <h4 className='Category-label'>{props.name}</h4>

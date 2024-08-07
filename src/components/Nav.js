@@ -16,7 +16,7 @@ function NavBar(){
                 <img src={logo} className='s-sq'/>
               </div>
             <div id="Common-actions" className='fl row vCtr'>
-                <div id='wrapper' className='fl row '>
+                <div id='wrapper' className='fl row'>
                 <Btn url={user}/>
                 <Btn url={cart}/>
                 <Btn url={menu}/>
