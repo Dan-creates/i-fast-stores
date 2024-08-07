@@ -1,11 +1,11 @@
 import '../styles/global.css'
 import Test_img from '../images/category.jpg'
 import like from '../images/heart.png'
-import Layout from '../Components/Layout'
-import Card from '../Components/Card'
-import Btn from '../Components/Buttons'
-import Dummy from '../Components/Dummy'
-import Review from '../Components/Review'
+import Layout from '../componentss/Layout'
+import Card from '../componentss/Card'
+import Btn from '../componentss/Buttons'
+import Dummy from '../componentss/Dummy'
+import Review from '../componentss/Review'
 function ProductPage(){
     return (
         <Layout>
