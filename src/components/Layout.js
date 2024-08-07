@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import NavBar from '../Components/Nav.js';
+import NavBar from './Nav.js';
 function Layout({children}){
     return(
         <>
