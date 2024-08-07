@@ -13,7 +13,7 @@ function NavBar(){
         <div id="NavBar" className='fl col'>
             <div id="NavFunc" className='fl row spRow'>
               <div id="Logo-container" className=''>
-                <img src={logo} className='s-sq'/>
+                <img src={logo} className='s-sq' alt=''/>
               </div>
             <div id="Common-actions" className='fl row vCtr'>
                 <div id='wrapper' className='fl row'>

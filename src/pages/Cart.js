@@ -1,8 +1,8 @@
 //import resources
 import '../styles/global.css'
-import Layout from '../Components/Layout'
-import Card from '../Components/Card'
-import CartItem from '../Components/Cart-item'
+import Layout from '../componentss/Layout'
+import Card from '../componentss/Card'
+import CartItem from '../componentss/Cart-item'
 //Define Cart Page
 function Cart(){
     return(
